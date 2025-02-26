@@ -27,7 +27,7 @@ The door locks after starting the program and opens one minute after the program
 While selecting the desired mode (manual or one of the automatic modes), the duration of the program is displayed. After the program starts, the remaining time is displayed (the time is shown on 7-segment displays).
 
 In auto mode you can choose from 5 different options, in manual mode you can select the temperature, speed, prewash, rinsing. 
-Depeinding on the selected mode, data from ROMs (4 ROMsfor manual mode 1 for auto mode) is uploaded in an adder (for manual mode) or directly to a 2:1 mux and the output from the mux goes to the main counter(washing time).
+Depending on the selected mode, data from ROMs (4 ROMs for manual mode, 1 for auto mode) is uploaded in an adder (for manual mode) or directly to a 2:1 mux and the output from the mux goes to the main counter(washing time).
 By pressing CONFIRM counter is activated and the door is locked. When the main counter reaches 0 second counter is activated and it counts 1 min. After second counter reaches 0, the door is unlocked.
 
 
